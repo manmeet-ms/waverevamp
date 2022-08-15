@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-900 text-gray-50" >
-    <header class="text-gray-400 bg-gray-900 body-font">
+    <header class="hide-on-mobile text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-purple-500 rounded-full" viewBox="0 0 24 24">
@@ -31,6 +31,53 @@
           </button></a>
         </div>
       </header>
+      <section class="w-full h-screen">
+        <!-- //  shown only on tablet/mobile -->
+        <section id="bottom-navigation" class="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-gray-800 shadow"> 
+        <!-- <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow"> -->
+          <div id="tabs" class="flex justify-between p-2">
+            <a href="#" class="w-full bg-purple-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+      
+              <span class="tab tab-home block text-xs">Home</span>
+            </a>
+            <a href="#" class="w-full bg-purple-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+              <span class="tab tab-kategori block text-xs">Category</span>
+            </a>
+            <a href="#" class="w-full bg-purple-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+      
+              <span class="tab tab-explore block text-xs">Explore</span>
+            </a>
+            <a href="#" class="w-full bg-purple-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+      
+              <span class="tab tab-whishlist block text-xs">Whishlist</span>
+            </a>
+            <a href=# class="w-full bg-purple-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                </svg>
+      
+              <span class="tab tab-account block text-xs">Account</span>
+            </a>
+          </div>
+        </section>
+      </section>
       <!-- hero -->
       <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
