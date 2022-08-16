@@ -10,60 +10,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-900 text-white" >
-    <header class="hide-on-mobile text-gray-400 bg-white bg-opacity-10 body-font">
+    <header class="hide-on-mobile text-gray-400 bg-gray-800 bg-opacity-50 body-font">
         <div class="container mx-auto flex flex-wrap px-1 py-3 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
         
             <span class="ml-3 text-xl">Wavewalker</span>
           </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <!-- <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <a href="/" class="mr-5 hover:text-white">Home</a>
             <a href="/about.html" class="mr-5 hover:text-white">About</a>
             <a href="/services.html" class="mr-5 hover:text-white">Services</a>
             <a href="/about.html#projects" class="mr-5 hover:text-white">Projects</a>
             <a href="/pricing.html" class="mr-5 hover:text-white">Pricing</a>
+          </nav> -->
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="/" class="mr-2 text-gray-200 py-1 px-2 bg-white bg-opacity-0 hover:bg-opacity-10 hover:text-white rounded transition-colors duration-300 ease-in-out ">Home</a>
+            <a href="/about.html" class=" mr-2 text-gray-200 py-1 px-2 bg-white bg-opacity-0 hover:bg-opacity-10 hover:text-white rounded transition-colors duration-300 ease-in-out ">About</a>
+            <a href="/pricing.html" class=" mr-5 text-gray-200 py-1 px-2 bg-white bg-opacity-0 hover:bg-opacity-10 hover:text-white rounded transition-colors duration-300 ease-in-out ">Pricing</a>
           </nav>
-          <a href="/contact" ><button class="clicky inline-flex items-center bg-blue-700 text-gray-100 bg-opacity-80 border-0 py-1 px-3 focus:outline-none hover:bg-blue-100 hover:text-gray-800 rounded text-base mt-4 md:mt-0 transition-colors duration-300 ease-in-out">Contact</button></a> 
+          <a href="/contact" ><button class="clicky inline-flex items-center  border-0 py-1 px-3 focus:outline-none bg-blue-700 text-gray-100 bg-opacity-80 hover:bg-opacity-100 rounded text-base mt-4 md:mt-0 transition-colors duration-300 ease-in-out">Contact</button></a> 
         </div>
       </header>
-      <section class="w-full">
-        <!-- //  shown only on tablet/mobile -->
-        <section id="bottom-navigation" class="md:hidden block fixed inset-x-0 bottom-0 z-10 bg-gray-800 shadow"> 
-        <!-- <section id="bottom-navigation" class="block fixed inset-x-0 bottom-0 z-10 bg-white shadow"> -->
-          <div id="tabs" class="flex justify-between p-2">
-            <a href="/" class="w-full bg-blue-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
-              <span class="tab tab-home block text-xs">Home</span>
-            </a>
-            <a href="/about.html" class="w-full bg-blue-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-              <span class="tab tab-kategori block text-xs">About</span>
-            </a>
-            <a href="/services.html" class="w-full bg-blue-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2" />
-              </svg>
-              <span class="tab tab-explore block text-xs">Services</span>
-            </a>
-            <a href="/pricing.html" class="w-full bg-blue-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-              <span class="tab tab-whishlist block text-xs">Pricing</span>
-            </a>
-            <a href="/contact.html" class="w-full bg-blue-600 bg-opacity-0 hover:bg-opacity-30 focus:bg-opacity-80 justify-center inline-block text-center pt-2 pb-1 rounded">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
-              </svg>
-              <span class="tab tab-account block text-xs">Contact</span>
-            </a>
-          </div>
-        </section>
-      </section>
       <section class="text-gray-400 bg-gray-900 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
@@ -72,12 +39,6 @@
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-                <!-- <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div> -->
                 <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600 rounded-full overflow-hidden  ">
                   <img class="object-cover object-center" src="/images/pp.jpg" alt="">
                 </div>
@@ -88,26 +49,202 @@
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p class="leading-relaxed text-lg mb-4"> I take pride in my work, and am always looking for opportunities to learn more.I have created many successful websites for various clients across the world. I am confident that I can make your website too!I've been designing for only about 5 years now, but I haven't looked back since! I have a strong understanding of web design principles that are followed by most of the talented designers out there today. My skills include HTML5 and CSS3 languages, Javascript language and frameworks such as JQuery, AngularJS, ReactJS If you're looking for someone to help with your website or branding needs look no further!
+                  <!-- component -->
 
+                  <div class="max-w-2xl text-white mx-auto rounded">
+                    <div id="accordion-collapse" data-accordion="collapse">
+                      <h2 id="accordion-collapse-heading-1">
+                        <button type="button" class="bg-blue-700 bg-opacity-70 text-white flex items-center justify-between p-5 w-full font-medium text-left border border-gray-800 text-gray-100 rounded-t-xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                        <span class="text-white" >Focus on creativity experience success</span>
+                        <svg data-accordion-icon class="w-6 h-6 shrink-0 text-white rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                      </button>
+                      </h2>
+                      <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
+                        <div class="p-5 bg-gray-800 bg-opacity-20 border border-gray-800 border-t-0">
+                          <p class="text-white">A website development and design solution, with a focus on creativity, experience, and success.
+                            Freelance web developer and designer who specializes in creating powerful, functional, and user-friendly websites. I have also worked with international clients. I hold good communication skills. When my favorite work comes, I take it as an opportunity and make sure to give my best!</p>
+                        </div>
+                      </div>
+                      <h2 id="accordion-collapse-heading-2">
+                        <button type="button" class="bg-blue-700 bg-opacity-70 text-white flex items-center justify-between p-5 w-full font-medium border border-gray-800 text-left text-white" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+                        <span class="text-white" >Specialized in user-friendly websites</span>
+                        <svg data-accordion-icon class="w-6 h-6 shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                      </button>
+                      </h2>
+                      <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                        <div class="p-5 bg-gray-800 bg-opacity-20 border border-gray-800 border-b-0">
+                          <p class="mb-2 text-white">I take pride in my work, and am always looking for opportunities to learn more. I have created many successful websites for various clients across the world. I am confident that I can make your website too! I've been designing for only about 5 years now, but I haven't looked back since! Being a freelancer web designer, I believe, it is the greatest ability bestowed more on people to take control of their own life issues and design their own world for themselves.</p>
+                        </div>
+                      </div>
+                      <h2 id="accordion-collapse-heading-3">
+                        <button type="button" class="bg-blue-700 bg-opacity-70 text-white flex items-center border border-gray-800 justify-between p-5 w-full font-medium text-left text-white" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+                        <span class="text-white" >You've found what you're looking for!</span>
+                        <svg data-accordion-icon class="w-6 h-6 shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                      </button>
+                      </h2>
+                      <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                        <div class="p-5 bg-gray-800 bg-opacity-20 border border-gray-800 border-t-0">
+                          <p class="mb-2 text-white">I have a strong understanding of web design principles that are followed by most of the talented designers out there today. If you're looking for someone to help with your website or branding needs look no further!
 
-                  A website development and design company, with a focus on creativity, experience, and success. Freelance web developer and designer who specializes in creating powerful, functional, and user-friendly websites. I take pride in my work, and I'm always looking for opportunities to learn more. I'm Manmeet Singh, Worked with international clients. I hold good communication skills. When my favourite work comes, I take it as an opportunity and make sure to give my best!</p>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
+                  </div>
+                <!-- <p class="leading-relaxed text-lg mb-4">
+                  A website development and design solution, with a focus on creativity, experience, and success. Freelance web developer and designer who specializes in creating powerful, functional, and user-friendly websites. I have also worked with international clients. I hold good communication skills. When my favorite work comes, I take it as an opportunity and make sure to give my best!
+                  <span class="text-lg" > I take pride in my work, and am always looking for opportunities to learn more. I have created many successful websites for various clients across the world. I am confident that I can make your website too! I've been designing for only about 5 years now, but I haven't looked back since! Being a freelancer web designer, I believe, it is the greatest ability bestowed more on people to take control of their own life issues and design their own world for themselves.</span>
+                  <span class="text-lg" > I have a strong understanding of web design principles that are followed by most of the talented designers out there today. If you're looking for someone to help with your website or branding needs look no further!</span>
+                </p>
                 <a class="text-blue-400 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
         </div>
       </section>
+<!-- PROJECTS -->
+<section class="text-gray-400 bg-gray-900 body-font">
+	<div class="text-center mb-20">
+		<h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-2">Portfolio</h1>
+		<p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">A representation of works I have created</p>
+		<div class="flex mt-4 justify-center">
+		  <div class="w-16 h-1 rounded-full bg-blue-500 inline-flex"></div>
+		</div>
+	  </div>
+	 <div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+		   <div class="swiper-slide">
+			  <section class="text-gray-400 bg-gray-900 body-font">
+				 <div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					   <div class="sm:w-1/2 mb-10 px-4">
+						  <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover object-center h-full w-full" src="/images/wp.png"> </div>
+						  <h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">WORDPRESS WEBSITE </h2>
+						  <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Market Victors</h2>
+						  <p class="leading-relaxed text-base">The most popular CMS in the world, WordPress is empowering more than 60 million websites for individuals and organizations. NOT to sound conceited! I made this website myself. In fact, I can help you with your site too. Just get your ideas ready! We'll end up with a perfect piece.</p>
+					   </div>
+					</div>
+				 </div>
+			  </section>
+		   </div>
+		   <div class="swiper-slide">
+			<section class="text-gray-400 bg-gray-900 body-font">
+			   <div class="container px-5 py-24 mx-auto">
+				  <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					 <div class="sm:w-1/2 mb-10 px-4">
+						<div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover object-center h-full w-full border border-gray-800 border-opacity-40 " src="/images/port1.png"> </div>
+						<h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">WEB DEVELOPMENT </h2>
+						<h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">My Portfolio Website</h2>
+						<p class="leading-relaxed text-base">The navigation of my portfolio site is very easy to understand. You can click on any section that you are interested in and it will take you there instantly. It features a well balanced animations, CSS3, HTML5, and other cool stuff to give you the best experience possible.</p>
+					 </div>
+				  </div>
+			   </div>
+			</section>
+		 </div>
+		 <div class="swiper-slide">
+			<section class="text-gray-400 bg-gray-900 body-font">
+			   <div class="container px-5 py-24 mx-auto">
+				  <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					 <div class="sm:w-1/2 mb-10 px-4">
+						<div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover mx-auto object-center h-full w-full" src="/images/DCsas.png"> </div>
+						<h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">DISCORD SERVERS </h2>
+						<h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Market Victors</h2>
+						<p class="leading-relaxed text-base">Discord is the most popular in gamers. It's also possible to use Discord for non-gaming purposes too - like marketing, design collaboration or remote work teams. Setup your discord server with various features such as verification system, reaction roles, channels and much more with me .</p>
+					 </div>
+				  </div>
+			   </div>
+			</section>
+		 </div>
+<!-- 
+		   <div class="swiper-slide">
+			  <section class="text-gray-400 bg-gray-900 body-font">
+				 <div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					   <div class="sm:w-1/2 mb-10 px-4">
+						  <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-contain mx-auto object-center h-full" src="/images/UIaboutpage.png"> </div>
+						  <h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">UI/UX </h2>
+						  <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">About Page</h2>
+						  <p class="leading-relaxed text-base">About page is the section of your website that a visitor sees while visit. It's a crucial piece of content for your site. I made this page using my UI/UX skills, I've designed the page in such a way that it can be easily navigated. Also it is responsive so that people using different devices can use it.</p>
+					   </div>
+					</div>
+				 </div>
+			  </section>
+		   </div> -->
+		   <div class="swiper-slide">
+			  <section class="text-gray-400 bg-gray-900 body-font">
+				 <div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					   <div class="sm:w-1/2 mb-10 px-4">
+						  <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover object-center h-full w-full" src="/images/5.png"> </div>
+						  <h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1 uppercase"> GraphicS WITH FIGMA</h2>
+						  <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">A Business Card Design</h2>
+						  <p class="leading-relaxed text-base">A business card is an essential part of marketing your product or service. With a modern and clean design, it will make you stand out among the crowd! The content of the text is not too long. Even though it doesn't have much content, it surely gets across the meaning!</p>
+					   </div>
+					</div>
+				 </div>
+			  </section>
+		   </div>
+		   <div class="swiper-slide">
+			<section class="text-gray-400 bg-gray-900 body-font">
+			   <div class="container px-5 py-24 mx-auto">
+				  <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					 <div class="sm:w-1/2 mb-10 px-4">
+						<div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover mx-auto object-center h-full w-full" src="/images/NFTcard.png"> </div>
+						<h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">FRONTEND CHALLENGES</h2>
+						<h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Frontend Mentor Solutions</h2>
+						<p class="leading-relaxed text-base">Every day has a challenge waiting to be solved! Helping newcomers in the field by posting solutions to specific problems  </p>
+					 </div>
+				  </div>
+			   </div>
+			</section>
+		 </div>
+		   <div class="swiper-slide">
+			  <section class="text-gray-400 bg-gray-900 body-font">
+				 <div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					   <div class="sm:w-1/2 mb-10 px-4">
+						  <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover mx-auto object-center h-full w-full" src="/images/DCsas.png"> </div>
+						  <h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">DISCORD SERVERS </h2>
+						  <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Second Action Studio</h2>
+						  <p class="leading-relaxed text-base">Discord is the most popular in gamers. It's also possible to use Discord for non-gaming purposes too - like marketing, design collaboration or remote work teams. Setup your discord server with various features such as verification system, reaction roles, channels and much more with me .</p>
+					   </div>
+					</div>
+				 </div>
+			  </section>
+		   </div>
+
+		   <!-- <div class="swiper-slide"><section class="text-gray-400 bg-gray-900 body-font"><div class="container px-5 py-24 mx-auto"> <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center"><div class="sm:w-1/2 mb-10 px-4"> <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover object-center h-full w-full" src="/images/"> </div><h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">GRAPHIC DESIGN </h2> <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Party Card</h2> <p class="leading-relaxed text-base">I'll collaborate with you for a custom design solution that will work for you! Need any help in business cards and event banners, then don't hesitate to get in touch with me! You can see my recent work on my website and if you'd like to hire me then thanks from the bottom of my heart :)</p></div></div></div></section></div>-->
+		   <div class="swiper-slide">
+			  <section class="text-gray-400 bg-gray-900 body-font">
+				 <div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+					   <div class="sm:w-1/2 mb-10 px-4">
+						  <div class="rounded-lg h-64 overflow-hidden"><img alt="content" class="object-cover object-center h-full w-full" src="/images/palamarprops.png"> </div>
+						  <h2 class="tracking-widest text-sm title-font mt-6  text-blue-500 mb-1">WEB DEVELOPMENT</h2>
+						  <h2 class="title-font text-2xl font-medium text-white mb-3 tracking-wide ">Real Estate Website</h2>
+						  <p class="leading-relaxed text-base"> I've recently made a Real Estate Website. I coded it in such a way to provide a user-friendly, easy-to-navigate and responsive experience. It contains all the features that are necessary to make it attractive. The contact forms are easy to use and the call to actions are very attractive on the website. </p>
+					   </div>
+					</div>
+				 </div>
+			  </section>
+		   </div>
+		</div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-pagination"></div>
+	 </div>
+	 </section>
 <!-- CERTIFICATE -->
 <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="lg:w-4/5 mx-auto flex flex-wrap">
       <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-        <span class="inline-block py-1 px-2 rounded bg-blue-800 text-blue-200 bg-opacity-50 text-xs font-medium tracking-widest">CERTIFICATE</span>
+        <span class="inline-block py-1 px-2 rounded bg-blue-800 bg-opacity-50 text-blue-200 text-xs font-medium tracking-widest">CERTIFICATE</span>
         <h1 class="text-white mt-2 text-3xl title-font font-medium mb-4">HackerRank</h1>
         <p class="leading-relaxed mb-4">A few weeks ago I decided to take HackerRank's Coding Challenge and I got a Certificate of Achievement in the process. Their assessments are an excellent way to expose yourself to new technologies and languages while simultaneously learning how your skills can best be utilized by potential employers outside of any one company or industry.</p>
       </div>
@@ -126,6 +263,16 @@
         <p class="leading-relaxed">Mimo offers interactive lessons on popular programming languages like HTML, JS, CSS, Python and SQL. You can also find tutorials on web development tools. Mimo will teach you how to code in no time.</p>
 
       </div>
+    </div>
+  </div>
+</section>
+
+<!--  -->
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+      <h1 class="flex-grow sm:pr-16 text-4xl font-medium title-font text-white">Alone, we can do so little together we can do so much.</h1>
+      <button class="clicky flex-shrink-0 bg-blue-700 text-gray-100 bg-opacity-80 hover:bg-opacity-100 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mt-10 sm:mt-0 transition-colors duration-300 ease-in-out">Let's Talk</button>
     </div>
   </div>
 </section>
@@ -165,5 +312,8 @@
       </footer>
       <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
       <script src="https://cdn.tailwindcss.com"></script>
+      <script src="//unpkg.com/alpinejs" defer></script>
+      <script src="swiper-bundle.min.js"></script><script src="type.js"></script><script>var swiper=new Swiper(".mySwiper",{spaceBetween: 30,centeredSlides: true,autoplay:{delay: 2500,disableOnInteraction: false,},pagination:{el: ".swiper-pagination",clickable: true,},navigation:{nextEl: ".swiper-button-next",prevEl: ".swiper-button-prev",},});</script>
+         <script src="swiper-bundle.min.js"></script>
 </body>
 </html>
